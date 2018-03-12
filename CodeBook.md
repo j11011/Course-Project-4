@@ -1,0 +1,78 @@
+## CodeBook
+
+This is the code book for the dataset contained in the file `data_tidy.txt`
+
+* Subject: This is the id of the subject.
+* Activity: This is the activity perfomed when the meseurements were taken the activities can be the following:
+  * LAYING 
+  * SITTING 
+  * STANDING 
+  * WALKING 
+  * WALKING_DOWNSTAIRS 
+  * WALKING_UPSTAIRS
+* TimeDomainBodyAccelerometer-MeanValue()-X
+* TimeDomainBodyAccelerometer-MeanValue()-Y
+* TimeDomainBodyAccelerometer-MeanValue()-Z
+* TimeDomainBodyAccelerometer-StandardDeviation()-X
+* TimeDomainBodyAccelerometer-StandardDeviation()-Y
+* TimeDomainBodyAccelerometer-StandardDeviation()-Z
+* TimeDomainGravityAccelerometer-MeanValue()-X
+* TimeDomainGravityAccelerometer-MeanValue()-Y
+* TimeDomainGravityAccelerometer-MeanValue()-Z
+* TimeDomainGravityAccelerometer-StandardDeviation()-X
+* TimeDomainGravityAccelerometer-StandardDeviation()-Y
+* TimeDomainGravityAccelerometer-StandardDeviation()-Z
+* TimeDomainBodyAccelerometerJerk-MeanValue()-X
+* TimeDomainBodyAccelerometerJerk-MeanValue()-Y
+* TimeDomainBodyAccelerometerJerk-MeanValue()-Z
+* TimeDomainBodyAccelerometerJerk-StandardDeviation()-X
+* TimeDomainBodyAccelerometerJerk-StandardDeviation()-Y
+* TimeDomainBodyAccelerometerJerk-StandardDeviation()-Z
+* TimeDomainBodyGyroscope-MeanValue()-X
+* TimeDomainBodyGyroscope-MeanValue()-Y
+* TimeDomainBodyGyroscope-MeanValue()-Z
+* TimeDomainBodyGyroscope-StandardDeviation()-X
+* TimeDomainBodyGyroscope-StandardDeviation()-Y
+* TimeDomainBodyGyroscope-StandardDeviation()-Z
+* TimeDomainBodyGyroscopeJerk-MeanValue()-X
+* TimeDomainBodyGyroscopeJerk-MeanValue()-Y
+* TimeDomainBodyGyroscopeJerk-MeanValue()-Z
+* TimeDomainBodyGyroscopeJerk-StandardDeviation()-X
+* TimeDomainBodyGyroscopeJerk-StandardDeviation()-Y
+* TimeDomainBodyGyroscopeJerk-StandardDeviation()-Z
+* TimeDomainBodyAccelerometerMagnitude-MeanValue()
+* TimeDomainBodyAccelerometerMagnitude-StandardDeviation()
+* TimeDomainGravityAccelerometerMagnitude-MeanValue()
+* TimeDomainGravityAccelerometerMagnitude-StandardDeviation()
+* TimeDomainBodyAccelerometerJerkMagnitude-MeanValue()
+* TimeDomainBodyAccelerometerJerkMagnitude-StandardDeviation()
+* TimeDomainBodyGyroscopeMagnitude-MeanValue()
+* TimeDomainBodyGyroscopeMagnitude-StandardDeviation()
+* TimeDomainBodyGyroscopeJerkMagnitude-MeanValue()
+* TimeDomainBodyGyroscopeJerkMagnitude-StandardDeviation()
+* FrequencyBodyAccelerometer-MeanValue()-X
+* FrequencyBodyAccelerometer-MeanValue()-Y
+* FrequencyBodyAccelerometer-MeanValue()-Z
+* FrequencyBodyAccelerometer-StandardDeviation()-X
+* FrequencyBodyAccelerometer-StandardDeviation()-Y
+* FrequencyBodyAccelerometer-StandardDeviation()-Z
+* FrequencyBodyAccelerometerJerk-MeanValue()-X
+* FrequencyBodyAccelerometerJerk-MeanValue()-Y
+* FrequencyBodyAccelerometerJerk-MeanValue()-Z
+* FrequencyBodyAccelerometerJerk-StandardDeviation()-X
+* FrequencyBodyAccelerometerJerk-StandardDeviation()-Y
+* FrequencyBodyAccelerometerJerk-StandardDeviation()-Z
+* FrequencyBodyGyroscope-MeanValue()-X
+* FrequencyBodyGyroscope-MeanValue()-Y
+* FrequencyBodyGyroscope-MeanValue()-Z
+* FrequencyBodyGyroscope-StandardDeviation()-X
+* FrequencyBodyGyroscope-StandardDeviation()-Y
+* FrequencyBodyGyroscope-StandardDeviation()-Z
+* FrequencyBodyAccelerometerMagnitude-MeanValue()
+* FrequencyBodyAccelerometerMagnitude-StandardDeviation()
+* FrequencyBodyBodyAccelerometerJerkMagnitude-MeanValue()
+* FrequencyBodyBodyAccelerometerJerkMagnitude-StandardDeviation()
+* FrequencyBodyBodyGyroscopeMagnitude-MeanValue()
+* FrequencyBodyBodyGyroscopeMagnitude-StandardDeviation()
+* FrequencyBodyBodyGyroscopeJerkMagnitude-MeanValue()
+* FrequencyBodyBodyGyroscopeJerkMagnitude-StandardDeviation()
