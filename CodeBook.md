@@ -6,12 +6,12 @@ This is the code book for the dataset contained in the file `data_tidy.txt`
 
 * Subject: This is the id of the subject.
 * Activity: This is the activity perfomed when the meseurements were taken the activities can be the following:
-  * LAYING 
+  * `LAYING
   * SITTING 
   * STANDING 
   * WALKING 
   * WALKING_DOWNSTAIRS 
-  * WALKING_UPSTAIRS
+  * WALKING_UPSTAIRS`
 
 ## Measurements
 
