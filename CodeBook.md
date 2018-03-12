@@ -2,6 +2,8 @@
 
 This is the code book for the dataset contained in the file `data_tidy.txt`
 
+### Identifiers
+
 * Subject: This is the id of the subject.
 * Activity: This is the activity perfomed when the meseurements were taken the activities can be the following:
   * LAYING 
@@ -10,6 +12,12 @@ This is the code book for the dataset contained in the file `data_tidy.txt`
   * WALKING 
   * WALKING_DOWNSTAIRS 
   * WALKING_UPSTAIRS
+
+## Measurements
+
+The measurements are the average of each variable for each activity and each subject, The time domain signals (begin with TimeDomain ) were captured at a constant rate of 50 Hz, then they were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. Below is a list of the measurements in the dataset:
+
+
 * TimeDomainBodyAccelerometer-MeanValue()-X
 * TimeDomainBodyAccelerometer-MeanValue()-Y
 * TimeDomainBodyAccelerometer-MeanValue()-Z
@@ -76,3 +84,11 @@ This is the code book for the dataset contained in the file `data_tidy.txt`
 * FrequencyBodyBodyGyroscopeMagnitude-StandardDeviation()
 * FrequencyBodyBodyGyroscopeJerkMagnitude-MeanValue()
 * FrequencyBodyBodyGyroscopeJerkMagnitude-StandardDeviation()
+
+### Transformations 
+
+The dataset was derived from the dataset contained in https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip the transformations done where 
+* Merging the training and the test sets to create one data set.
+* Extracting only the measurements on the mean and standard deviation for each measurement.
+* Uses descriptive activity names from activity_labels.txt to name the activities in the data set
+* Appropriately labels the data set with descriptive variable names from features.txt.
